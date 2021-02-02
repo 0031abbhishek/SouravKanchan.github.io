@@ -1,5 +1,5 @@
 /**
- * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
+ * @author Abhishek Kumar <viveksingh244024@gmail.com>
  */
 (function ($) {
     "use strict";
@@ -49,7 +49,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
+        document.getElementById("time").innerHTML = "Bless the couple for happy life!";
     }
 }, 1000);
 
@@ -87,7 +87,7 @@ var styles2 = [
 
 console.log('\n\n%c SAVE THE DATE: 29th Nov, 2020!', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Vinit Shahdeo', styles1, styles2);
+console.log('%cYour presence is requested!%c\n\nRegards: Abhishek Kumar', styles1, styles2);
 
 console.log(
     `%cShaadi me zaroor aana!\n\n`,
